@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Brigadeiro de colher</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" /> 
+    <link href="index.css" rel="stylesheet" type="text/css" />
+  </head>
+	<body>
+		<div id="container">
+			<header>
+				<h1>Brigadeiro de colher</h1>
+				<img src=https://i.imgur.com/fDRi1DM.png alt="Uma caneca branca com brigadeiro dentro e uma colher prateada.">
+
+	
+				<p>Quando bate aquela TPM ou você recebe as amigas em casa, nada melhor do que se deliciar com um brigadeiro de colher.</p>
+
+	
+			</header>
+			
+			<section id="Ingredientes" onmouseover="ingredientsHover()" onmouseout="ingredientsNormal()">
+				
+				<h2>Ingredientes <i class="fa fa-spoon" aria-hidden="true"></i></h2>
+				<ul>
+					<li>1 lata de leite condensado</li>
+					<li>1 colher de sopa de manteiga/margarina</li>
+					<li>4 colheres de sopa de chocolate em pó</li>
+				</ul>
+			</section>
+			
+			<section id="Modo_de_preparo" onmouseover="preparationHover()" onmouseout="preparationNormal()">
+				
+				<h2>Modo de Preparo <i class="fa fa-check" aria-hidden="true"></i></h2>
+				<ol>
+					<li>
+	                Coloque a manteiga em uma panela, em fogo baixo.
+					</li>
+					<li>
+						Quando a manteiga derreter, adicione o leite condensado. Mexa bem com uma colher de pau.
+					</li>
+					<li>
+						Adicione o chocolate em pó. Continue mexendo sempre para não queimar nem grudar no fundo da panela.
+					</li>
+					<li>
+						Quando tiver misturado todo o chocolate, continue mexendo até sentir que a textura está mais densa.
+					</li>
+					<li>
+						O brigadeiro chega no ponto quando você passa a colher de pau no fundo da panela e ele desgruda sem deixar resquícios.
+					</li>
+					<li>
+						Colocar em um prato e esperar esfriar.
+					</li>
+					<li>
+						Aproveite! :)
+					</li>
+				</ol>
+			</section>
+			
+			<footer>
+				<p>Copyright Tamires Romano 2021</p>
+			</footer>
+		</div>
+		<script>
+		
+		function ingredientsHover(){
+		    document.getElementById("Ingredientes").style.fontSize = "300%";
+}
+
+function ingredientsNormal(){
+    document.getElementById("Ingredientes").style.fontSize = "100%";
+}
+
+function preparationHover(){
+    document.getElementById("Modo_de_preparo").style.fontSize = "300%";
+}
+
+function preparationNormal(){
+    document.getElementById("Modo_de_preparo").style.fontSize = "100%";
+}
+    		
+        </script>
+	</body>
+</html>
